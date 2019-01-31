@@ -48,10 +48,13 @@ public class SwitchString {
         }
         System.out.println("");
         for (int i = 0; i < months.length; i++) {
+            System.out.println("");
             System.out.println(months[i]); 
-            for(int k=0; k<months.length;k++){
+            for(int k=0; k< months[k].length();k++){
                 System.out.print("*");
+
             }
+
         }
     }
 }
